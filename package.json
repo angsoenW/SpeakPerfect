@@ -1,0 +1,34 @@
+{
+  "name": "express-starter",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node ./bin/www.cjs"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "^4.18.2",
+    "express-session": "^1.18.0",
+    "mongoose": "^8.1.1",
+    "morgan": "~1.9.1",
+    "msal-node-wrapper": "https://gitpkg.now.sh/kylethayer/ms-identity-javascript-nodejs-tutorial-msal-node-v2-/Common/msal-node-wrapper?main",
+    "node-fetch": "*",
+    "node-html-parser": "^6.1.12",
+    "serve-favicon": "^2.5.0"
+  },
+  "description": "https://webpreview.onrender.com/",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/info441-wi24/websharer-angsoenW.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/info441-wi24/websharer-angsoenW/issues"
+  },
+  "homepage": "https://github.com/info441-wi24/websharer-angsoenW#readme",
+  "devDependencies": {}
+}
