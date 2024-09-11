@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D7B38552C099EFD003CCC48 /* fetchChatbot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7B38542C099EFD003CCC48 /* fetchChatbot.swift */; };
+		4D7B38572C099F15003CCC48 /* fetchSpeechtoText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7B38562C099F15003CCC48 /* fetchSpeechtoText.swift */; };
+		DBCF27822C0870E6002E07D1 /* SpeakPerfectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCF27812C0870E6002E07D1 /* SpeakPerfectApp.swift */; };
+		DBCF27862C0870E8002E07D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBCF27852C0870E8002E07D1 /* Assets.xcassets */; };
+		DBCF27892C0870E8002E07D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBCF27882C0870E8002E07D1 /* Preview Assets.xcassets */; };
+		DBCF27932C0870E8002E07D1 /* SpeakPerfectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCF27922C0870E8002E07D1 /* SpeakPerfectTests.swift */; };
+		DBCF279D2C0870E8002E07D1 /* SpeakPerfectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCF279C2C0870E8002E07D1 /* SpeakPerfectUITests.swift */; };
+		DBCF279F2C0870E8002E07D1 /* SpeakPerfectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCF279E2C0870E8002E07D1 /* SpeakPerfectUITestsLaunchTests.swift */; };
+		DBCF27AC2C087132002E07D1 /* fetchSpeechaceAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCF27AB2C087132002E07D1 /* fetchSpeechaceAPI.swift */; };
+		DBCF27B02C0D8895002E07D1 /* voiceRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCF27AF2C0D8895002E07D1 /* voiceRecorder.swift */; };
+		DBCF27B62C0EDB1F002E07D1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCF27B52C0EDB1F002E07D1 /* HomeView.swift */; };
+		DBCF27B82C0EE066002E07D1 /* WordDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCF27B72C0EE066002E07D1 /* WordDetailView.swift */; };
+		DBCF27BA2C0EE084002E07D1 /* PhoneDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCF27B92C0EE084002E07D1 /* PhoneDetailView.swift */; };
+		EC3F9F802C0EBDF900D04C19 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3F9F7F2C0EBDF900D04C19 /* WelcomeView.swift */; };
+		EC3F9F822C0ECCBA00D04C19 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC3F9F812C0ECCBA00D04C19 /* Launch Screen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBCF278F2C0870E8002E07D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBCF27762C0870E6002E07D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBCF277D2C0870E6002E07D1;
+			remoteInfo = ProunciaAI;
+		};
+		DBCF27992C0870E8002E07D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBCF27762C0870E6002E07D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBCF277D2C0870E6002E07D1;
+			remoteInfo = ProunciaAI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D7B38542C099EFD003CCC48 /* fetchChatbot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fetchChatbot.swift; sourceTree = "<group>"; };
+		4D7B38562C099F15003CCC48 /* fetchSpeechtoText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fetchSpeechtoText.swift; sourceTree = "<group>"; };
+		DBCF277E2C0870E6002E07D1 /* SpeakPerfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeakPerfect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBCF27812C0870E6002E07D1 /* SpeakPerfectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakPerfectApp.swift; sourceTree = "<group>"; };
+		DBCF27852C0870E8002E07D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBCF27882C0870E8002E07D1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DBCF278E2C0870E8002E07D1 /* SpeakPerfectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeakPerfectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBCF27922C0870E8002E07D1 /* SpeakPerfectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakPerfectTests.swift; sourceTree = "<group>"; };
+		DBCF27982C0870E8002E07D1 /* SpeakPerfectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeakPerfectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBCF279C2C0870E8002E07D1 /* SpeakPerfectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakPerfectUITests.swift; sourceTree = "<group>"; };
+		DBCF279E2C0870E8002E07D1 /* SpeakPerfectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakPerfectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DBCF27AB2C087132002E07D1 /* fetchSpeechaceAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fetchSpeechaceAPI.swift; sourceTree = "<group>"; };
+		DBCF27AD2C08718D002E07D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DBCF27AF2C0D8895002E07D1 /* voiceRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = voiceRecorder.swift; sourceTree = "<group>"; };
+		DBCF27B52C0EDB1F002E07D1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		DBCF27B72C0EE066002E07D1 /* WordDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordDetailView.swift; sourceTree = "<group>"; };
+		DBCF27B92C0EE084002E07D1 /* PhoneDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneDetailView.swift; sourceTree = "<group>"; };
+		EC3F9F7F2C0EBDF900D04C19 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		EC3F9F812C0ECCBA00D04C19 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBCF277B2C0870E6002E07D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBCF278B2C0870E8002E07D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBCF27952C0870E8002E07D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBCF27752C0870E6002E07D1 = {
+			isa = PBXGroup;
+			children = (
+				DBCF27802C0870E6002E07D1 /* SpeakPerfect */,
+				DBCF27912C0870E8002E07D1 /* SpeakPerfectTests */,
+				DBCF279B2C0870E8002E07D1 /* SpeakPerfectUITests */,
+				DBCF277F2C0870E6002E07D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBCF277F2C0870E6002E07D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBCF277E2C0870E6002E07D1 /* SpeakPerfect.app */,
+				DBCF278E2C0870E8002E07D1 /* SpeakPerfectTests.xctest */,
+				DBCF27982C0870E8002E07D1 /* SpeakPerfectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBCF27802C0870E6002E07D1 /* SpeakPerfect */ = {
+			isa = PBXGroup;
+			children = (
+				EC3F9F812C0ECCBA00D04C19 /* Launch Screen.storyboard */,
+				DBCF27AD2C08718D002E07D1 /* Info.plist */,
+				DBCF27B72C0EE066002E07D1 /* WordDetailView.swift */,
+				DBCF27B92C0EE084002E07D1 /* PhoneDetailView.swift */,
+				DBCF27B52C0EDB1F002E07D1 /* HomeView.swift */,
+				EC3F9F7F2C0EBDF900D04C19 /* WelcomeView.swift */,
+				DBCF27812C0870E6002E07D1 /* SpeakPerfectApp.swift */,
+				4D7B38542C099EFD003CCC48 /* fetchChatbot.swift */,
+				DBCF27AF2C0D8895002E07D1 /* voiceRecorder.swift */,
+				4D7B38562C099F15003CCC48 /* fetchSpeechtoText.swift */,
+				DBCF27AB2C087132002E07D1 /* fetchSpeechaceAPI.swift */,
+				DBCF27852C0870E8002E07D1 /* Assets.xcassets */,
+				DBCF27872C0870E8002E07D1 /* Preview Content */,
+			);
+			path = SpeakPerfect;
+			sourceTree = "<group>";
+		};
+		DBCF27872C0870E8002E07D1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DBCF27882C0870E8002E07D1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DBCF27912C0870E8002E07D1 /* SpeakPerfectTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBCF27922C0870E8002E07D1 /* SpeakPerfectTests.swift */,
+			);
+			path = SpeakPerfectTests;
+			sourceTree = "<group>";
+		};
+		DBCF279B2C0870E8002E07D1 /* SpeakPerfectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DBCF279C2C0870E8002E07D1 /* SpeakPerfectUITests.swift */,
+				DBCF279E2C0870E8002E07D1 /* SpeakPerfectUITestsLaunchTests.swift */,
+			);
+			path = SpeakPerfectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBCF277D2C0870E6002E07D1 /* SpeakPerfect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBCF27A22C0870E8002E07D1 /* Build configuration list for PBXNativeTarget "SpeakPerfect" */;
+			buildPhases = (
+				DBCF277A2C0870E6002E07D1 /* Sources */,
+				DBCF277B2C0870E6002E07D1 /* Frameworks */,
+				DBCF277C2C0870E6002E07D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpeakPerfect;
+			productName = ProunciaAI;
+			productReference = DBCF277E2C0870E6002E07D1 /* SpeakPerfect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBCF278D2C0870E8002E07D1 /* SpeakPerfectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBCF27A52C0870E8002E07D1 /* Build configuration list for PBXNativeTarget "SpeakPerfectTests" */;
+			buildPhases = (
+				DBCF278A2C0870E8002E07D1 /* Sources */,
+				DBCF278B2C0870E8002E07D1 /* Frameworks */,
+				DBCF278C2C0870E8002E07D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBCF27902C0870E8002E07D1 /* PBXTargetDependency */,
+			);
+			name = SpeakPerfectTests;
+			productName = ProunciaAITests;
+			productReference = DBCF278E2C0870E8002E07D1 /* SpeakPerfectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DBCF27972C0870E8002E07D1 /* SpeakPerfectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBCF27A82C0870E8002E07D1 /* Build configuration list for PBXNativeTarget "SpeakPerfectUITests" */;
+			buildPhases = (
+				DBCF27942C0870E8002E07D1 /* Sources */,
+				DBCF27952C0870E8002E07D1 /* Frameworks */,
+				DBCF27962C0870E8002E07D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBCF279A2C0870E8002E07D1 /* PBXTargetDependency */,
+			);
+			name = SpeakPerfectUITests;
+			productName = ProunciaAIUITests;
+			productReference = DBCF27982C0870E8002E07D1 /* SpeakPerfectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBCF27762C0870E6002E07D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					DBCF277D2C0870E6002E07D1 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					DBCF278D2C0870E8002E07D1 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = DBCF277D2C0870E6002E07D1;
+					};
+					DBCF27972C0870E8002E07D1 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = DBCF277D2C0870E6002E07D1;
+					};
+				};
+			};
+			buildConfigurationList = DBCF27792C0870E6002E07D1 /* Build configuration list for PBXProject "SpeakPerfect" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBCF27752C0870E6002E07D1;
+			productRefGroup = DBCF277F2C0870E6002E07D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBCF277D2C0870E6002E07D1 /* SpeakPerfect */,
+				DBCF278D2C0870E8002E07D1 /* SpeakPerfectTests */,
+				DBCF27972C0870E8002E07D1 /* SpeakPerfectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBCF277C2C0870E6002E07D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC3F9F822C0ECCBA00D04C19 /* Launch Screen.storyboard in Resources */,
+				DBCF27892C0870E8002E07D1 /* Preview Assets.xcassets in Resources */,
+				DBCF27862C0870E8002E07D1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBCF278C2C0870E8002E07D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBCF27962C0870E8002E07D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBCF277A2C0870E6002E07D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBCF27B02C0D8895002E07D1 /* voiceRecorder.swift in Sources */,
+				4D7B38572C099F15003CCC48 /* fetchSpeechtoText.swift in Sources */,
+				DBCF27BA2C0EE084002E07D1 /* PhoneDetailView.swift in Sources */,
+				DBCF27B82C0EE066002E07D1 /* WordDetailView.swift in Sources */,
+				4D7B38552C099EFD003CCC48 /* fetchChatbot.swift in Sources */,
+				DBCF27822C0870E6002E07D1 /* SpeakPerfectApp.swift in Sources */,
+				DBCF27B62C0EDB1F002E07D1 /* HomeView.swift in Sources */,
+				DBCF27AC2C087132002E07D1 /* fetchSpeechaceAPI.swift in Sources */,
+				EC3F9F802C0EBDF900D04C19 /* WelcomeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBCF278A2C0870E8002E07D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBCF27932C0870E8002E07D1 /* SpeakPerfectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBCF27942C0870E8002E07D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBCF279D2C0870E8002E07D1 /* SpeakPerfectUITests.swift in Sources */,
+				DBCF279F2C0870E8002E07D1 /* SpeakPerfectUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBCF27902C0870E8002E07D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBCF277D2C0870E6002E07D1 /* SpeakPerfect */;
+			targetProxy = DBCF278F2C0870E8002E07D1 /* PBXContainerItemProxy */;
+		};
+		DBCF279A2C0870E8002E07D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBCF277D2C0870E6002E07D1 /* SpeakPerfect */;
+			targetProxy = DBCF27992C0870E8002E07D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DBCF27A02C0870E8002E07D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DBCF27A12C0870E8002E07D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBCF27A32C0870E8002E07D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpeakPerfect/Preview Content\"";
+				DEVELOPMENT_TEAM = 67256A364Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpeakPerfect/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Need microphone access for uploading audio";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.uw.ischool.marquito.SpeakEasy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBCF27A42C0870E8002E07D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpeakPerfect/Preview Content\"";
+				DEVELOPMENT_TEAM = 67256A364Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpeakPerfect/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Need microphone access for uploading audio";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.uw.ischool.marquito.SpeakEasy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DBCF27A62C0870E8002E07D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.uw.ischool.xiangw9.ProunciaAITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeakPerfect.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpeakPerfect";
+			};
+			name = Debug;
+		};
+		DBCF27A72C0870E8002E07D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.uw.ischool.xiangw9.ProunciaAITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeakPerfect.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpeakPerfect";
+			};
+			name = Release;
+		};
+		DBCF27A92C0870E8002E07D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.uw.ischool.xiangw9.ProunciaAIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProunciaAI;
+			};
+			name = Debug;
+		};
+		DBCF27AA2C0870E8002E07D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.uw.ischool.xiangw9.ProunciaAIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProunciaAI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBCF27792C0870E6002E07D1 /* Build configuration list for PBXProject "SpeakPerfect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBCF27A02C0870E8002E07D1 /* Debug */,
+				DBCF27A12C0870E8002E07D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBCF27A22C0870E8002E07D1 /* Build configuration list for PBXNativeTarget "SpeakPerfect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBCF27A32C0870E8002E07D1 /* Debug */,
+				DBCF27A42C0870E8002E07D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBCF27A52C0870E8002E07D1 /* Build configuration list for PBXNativeTarget "SpeakPerfectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBCF27A62C0870E8002E07D1 /* Debug */,
+				DBCF27A72C0870E8002E07D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBCF27A82C0870E8002E07D1 /* Build configuration list for PBXNativeTarget "SpeakPerfectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBCF27A92C0870E8002E07D1 /* Debug */,
+				DBCF27AA2C0870E8002E07D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBCF27762C0870E6002E07D1 /* Project object */;
+}
